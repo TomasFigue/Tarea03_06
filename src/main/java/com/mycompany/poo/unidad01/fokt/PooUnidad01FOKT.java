@@ -12,6 +12,6 @@ package com.mycompany.poo.unidad01.fokt;
 public class PooUnidad01FOKT {
 
     public static void main(String[] args) {
-        System.out.println("HOLA ECUADOR!");
+        System.out.println("hola mundo");
     }
 }

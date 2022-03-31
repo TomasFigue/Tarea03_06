@@ -12,6 +12,6 @@ package com.mycompany.cloneprueba;
 public class Cloneprueba {
 
     public static void main(String[] args) {
-        System.out.println("funcionooooooooooooooooooooooooooooooo ctm");
+        System.out.println("si funcionaaaaaaaaaaaa xd");
     }
 }

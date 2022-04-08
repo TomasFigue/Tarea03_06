@@ -28,7 +28,9 @@ public class Tarea02 {
         
         System.out.println("porcentaje de ingresos segun la antiguedad: "+empleado.calcularIngresos(2022));
         
-        System.out.println("Ingresos: "+empleado.ingresosNeto(0)*0.1+empleado.calcularIngresos(2022));
+        System.out.println("Años trabajados: "+empleado.calcularTiempo(2022));
+        
+        System.out.println("Ingresos: "+empleado.ingresosNeto(0));
         
         System.out.println("Ingresospor bono: "+empleado.ingresosBono(0));
         

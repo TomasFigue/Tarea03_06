@@ -15,9 +15,9 @@ public class Tarea02 {
         System.out.println("Tarea02");
         
         var empleado = new Empleado();
-        empleado.anioIngreso=2003;
-        empleado.costoHoras=11.05;
-        empleado.horasTrabajadas=160;
+        empleado.anioIngreso=2010;
+        empleado.costoHoras=6;
+        empleado.horasTrabajadas=100;
         empleado.nombre="Mario";
         empleado.bono=2;
         
@@ -26,11 +26,11 @@ public class Tarea02 {
                            empleado.costoHoras+" | "+
                            empleado.horasTrabajadas+" | ");
         
-        System.out.println("porcentaje de ingresos segun la antiguedad: "+empleado.calcularIngresos(2022));
+        
         
         System.out.println("Años trabajados: "+empleado.calcularTiempo(2022));
         
-        System.out.println("Ingresos: "+empleado.ingresosNeto(0));
+        System.out.println("Ingresos: "+empleado.ingresosAntiguedad());
         
         System.out.println("Ingresospor bono: "+empleado.ingresosBono(0));
         

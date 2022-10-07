@@ -20,9 +20,9 @@ public class Poo_unidad01_KT {
         
         perro1.nombre="gufi";
         perro2.edad=5;
-        perro3.raza="aha";
+        perro3.raza="aha"; 
         
-        var auto1= new Auto();
+        var auto1= new Auto(); 
         var auto2= new Auto();
         var auto3= new Auto();
         
@@ -34,7 +34,7 @@ public class Poo_unidad01_KT {
         perro2.nombre="galleta";
         perro2.edad=50;
         perro2.raza="jaja";   
-                System.out.println("Mi perro se llama:" +perro2.nombre+"tiene"+perro2.edad+"años"+"y es un"+perro2.raza);
+        System.out.println("Mi perro se llama:" +perro2.nombre+"tiene"+perro2.edad+"años"+"y es un"+perro2.raza);
 
                 
     }

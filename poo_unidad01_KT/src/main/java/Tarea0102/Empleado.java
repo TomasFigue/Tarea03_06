@@ -86,7 +86,7 @@ public class Empleado {
     public double calculoTotal(int limt1, int limt2, int limt3) {
         var retorno = 0.0d;
         var total = this.ingresoNormal() + this.bonoHorasExtra() + this.bonoAntiguedad()
-                - this.calcularImpuesto(500, 1000, 1500);
+                - this.calcularImpuesto(limt1, limt2, limt3);
         return total;
     }
 }

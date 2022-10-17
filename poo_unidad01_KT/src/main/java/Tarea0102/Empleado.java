@@ -64,7 +64,7 @@ public class Empleado {
         return retorno;
     }
 
-    public double impuesto(int limt1, int limt2, int limt3) {
+    public double calcularImpuesto(int limt1, int limt2, int limt3) {
         var retorno = 0.0d;
         if (this.ingresoNormal() > limt1 && this.ingresoNormal() < limt2) {
             var ingreso1 = this.ingresoNormal() * 0.05;
@@ -83,10 +83,10 @@ public class Empleado {
         }
     }
 
-    public double calculoTotal() {
+    public double calculoTotal(int limt1, int limt2, int limt3) {
         var retorno = 0.0d;
         var total = this.ingresoNormal() + this.bonoHorasExtra() + this.bonoAntiguedad()
-                - this.impuesto(500, 1000, 1500);
+                - this.calcularImpuesto(500, 1000, 1500);
         return total;
     }
 }

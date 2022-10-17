@@ -26,8 +26,8 @@ public class Principal {
         System.out.println("El bono por antiguedad del empleado es: "+empleado1.bonoAntiguedad());
         System.out.println("El salario total del empleado: "+empleado1.ingresoPrincipal());
         System.out.println("El bono por exeder las 160 horas es: "+empleado1.bonoHorasExtra());
-        System.out.println("Impuesto al salario del empleado es: "+empleado1.impuesto(500, 1000, 1500)); 
-        System.out.println("El total es: "+empleado1.calculoTotal());
+        System.out.println("Impuesto al salario del empleado es: "+empleado1.calcularImpuesto(500, 1000, 1500)); 
+        System.out.println("El total es: "+empleado1.calculoTotal(500,1000,1500));
         
         var empleado2 = new Empleado();
         empleado2.AñoIngreso=2020;
@@ -40,8 +40,8 @@ public class Principal {
         System.out.println("El bono por antiguedad del empleado es: "+empleado2.bonoAntiguedad());
         System.out.println("El salario total del empleado: "+empleado2.ingresoPrincipal());
         System.out.println("El bono por exeder las 160 horas es: "+empleado2.bonoHorasExtra());
-        System.out.println("Impuesto al salario del empleado es: "+empleado2.impuesto(500, 1000, 1500)); 
-        System.out.println("El total es: "+empleado2.calculoTotal());
+        System.out.println("Impuesto al salario del empleado es: "+empleado2.calcularImpuesto(500, 1000, 1500)); 
+        System.out.println("El total es: "+empleado2.calculoTotal(500, 1000, 1500));
         
         var empleado3 = new Empleado();
         empleado3.AñoIngreso=2010;
@@ -54,8 +54,8 @@ public class Principal {
         System.out.println("El bono por antiguedad del empleado es: "+empleado3.bonoAntiguedad());
         System.out.println("El salario total del empleado: "+empleado3.ingresoPrincipal());
         System.out.println("El bono por exeder las 160 horas es: "+empleado3.bonoHorasExtra());
-        System.out.println("Impuesto al salario del empleado es: "+empleado3.impuesto(500, 1000, 1500)); 
-        System.out.println("El total es: "+empleado3.calculoTotal());
+        System.out.println("Impuesto al salario del empleado es: "+empleado3.calcularImpuesto(500, 1000, 1500)); 
+        System.out.println("El total es: "+empleado3.calculoTotal(500, 1000, 1500));
         
     }   
 

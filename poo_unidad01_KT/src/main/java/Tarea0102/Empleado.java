@@ -17,7 +17,7 @@ public class Empleado {
 
     public String mostrarInfo() {
         var retorno = "\n El empleado se llama: " + this.nombre + "\n En el mes a trabajado: "
-                + this.horasTrabajadas + "\n El Precio de la hora es: " + this.costoHora
+                + this.horasTrabajadas + " Horas" + "\n El Precio de la hora es: " + this.costoHora
                 + "\n El año de ingreso del empleado es: " + this.AñoIngreso;
 
         return retorno;
@@ -82,10 +82,11 @@ public class Empleado {
             }
         }
     }
-    public double calculoTotal(){
-        var retorno=0.0d;
-        var total=this.ingresoNormal()+this.bonoHorasExtra()+this.bonoAntiguedad()-
-                this.impuesto(500, 1000, 1500);
-        return total;     
+
+    public double calculoTotal() {
+        var retorno = 0.0d;
+        var total = this.ingresoNormal() + this.bonoHorasExtra() + this.bonoAntiguedad()
+                - this.impuesto(500, 1000, 1500);
+        return total;
     }
 }

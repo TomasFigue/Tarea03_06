@@ -14,7 +14,7 @@ import Control.ProveedorControl;
 public class Tarea02_01 {
     
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Grupo4");
         
        var proveedorControl = new ProveedorControl();
        var data= new String[5];

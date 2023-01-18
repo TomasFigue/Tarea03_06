@@ -12,7 +12,7 @@ package com.mycompany.tarea3_06;
 public class Graficos {
 
     public static void main(String[] args) {
-        Tarea3_06  miFormulario = new  Tarea3_06();
-        miFormulario.setVisible(true); 
+        Tarea3_06  grafico = new  Tarea3_06();
+        grafico.setVisible(true); 
     }
 }
